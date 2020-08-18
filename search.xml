@@ -39,6 +39,26 @@
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>/sw.js</url>
+    <content><![CDATA[
+importScripts('https://g.alicdn.com/kg/workbox/3.3.0/workbox-sw.js');
+
+if (workbox) {
+    workbox.setConfig({ modulePathPrefix: 'https://g.alicdn.com/kg/workbox/3.3.0/' });
+
+    workbox.precaching.precache(['/', '/index.html']);
+
+    workbox.routing.registerRoute(new RegExp('^https?://jsdelivr.net/?$'), workbox.strategies.networkFirst());
+
+    workbox.routing.registerRoute(new RegExp('.*.html'), workbox.strategies.networkFirst());
+
+    workbox.routing.registerRoute(new RegExp('.*.(?:js|css)'), workbox.strategies.staleWhileRevalidate());
+
+    workbox.routing.registerRoute(new RegExp('https://https://cdn.jsdelivr.net/'), workbox.strategies.cacheFirst());
+}]]></content>
+  </entry>
+  <entry>
     <title>صفحه نخست</title>
     <url>/index.html</url>
     <content><![CDATA[<p><img src="./assets/images/tree.svg#main-poster" alt="استدیو کنار"></p>
@@ -99,26 +119,6 @@
 <li><a href="https://konar.studio/about">اطلاعات توسعه دهنده</a></li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/sw.js</url>
-    <content><![CDATA[
-importScripts('https://g.alicdn.com/kg/workbox/3.3.0/workbox-sw.js');
-
-if (workbox) {
-    workbox.setConfig({ modulePathPrefix: 'https://g.alicdn.com/kg/workbox/3.3.0/' });
-
-    workbox.precaching.precache(['/', '/index.html']);
-
-    workbox.routing.registerRoute(new RegExp('^https?://jsdelivr.net/?$'), workbox.strategies.networkFirst());
-
-    workbox.routing.registerRoute(new RegExp('.*.html'), workbox.strategies.networkFirst());
-
-    workbox.routing.registerRoute(new RegExp('.*.(?:js|css)'), workbox.strategies.staleWhileRevalidate());
-
-    workbox.routing.registerRoute(new RegExp('https://https://cdn.jsdelivr.net/'), workbox.strategies.cacheFirst());
-}]]></content>
   </entry>
   <entry>
     <title>404</title>
@@ -184,6 +184,13 @@ D[تولید انبوه  ] --&gt; E(پشتیبانی و خدمات پس از ف�
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>تماس با ما</title>
+    <url>/contact/index.html</url>
+    <content><![CDATA[<h1 id="اطلاعات-تماس-باما"><a href="#اطلاعات-تماس-باما" class="headerlink" title="اطلاعات تماس باما"></a>اطلاعات تماس باما</h1><h1 id="واتس-اپ"><a href="#واتس-اپ" class="headerlink" title="واتس اپ"></a>واتس اپ</h1><p>تماس از طریق واتس اپ :</p>
+<h1 id="ایمیل"><a href="#ایمیل" class="headerlink" title="ایمیل"></a>ایمیل</h1><p>ایمیل ارتباطی :</p>
+]]></content>
+  </entry>
+  <entry>
     <title>راه حل ها</title>
     <url>/solutions/index.html</url>
     <content><![CDATA[<h2 id="اسکنر-سطحی"><a href="#اسکنر-سطحی" class="headerlink" title="اسکنر سطحی"></a>اسکنر سطحی</h2><ul>
@@ -192,13 +199,6 @@ D[تولید انبوه  ] --&gt; E(پشتیبانی و خدمات پس از ف�
 <li><a href="surface-scanner/support.html">پشتیبانی</a></li>
 <li><a href="surface-scanner/providers.html">تامین کننده های محلی</a></li>
 </ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>تماس با ما</title>
-    <url>/contact/index.html</url>
-    <content><![CDATA[<h1 id="اطلاعات-تماس-باما"><a href="#اطلاعات-تماس-باما" class="headerlink" title="اطلاعات تماس باما"></a>اطلاعات تماس باما</h1><h1 id="واتس-اپ"><a href="#واتس-اپ" class="headerlink" title="واتس اپ"></a>واتس اپ</h1><p>تماس از طریق واتس اپ :</p>
-<h1 id="ایمیل"><a href="#ایمیل" class="headerlink" title="ایمیل"></a>ایمیل</h1><p>ایمیل ارتباطی :</p>
 ]]></content>
   </entry>
   <entry>
