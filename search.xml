@@ -39,26 +39,6 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/sw.js</url>
-    <content><![CDATA[
-importScripts('https://g.alicdn.com/kg/workbox/3.3.0/workbox-sw.js');
-
-if (workbox) {
-    workbox.setConfig({ modulePathPrefix: 'https://g.alicdn.com/kg/workbox/3.3.0/' });
-
-    workbox.precaching.precache(['/', '/index.html']);
-
-    workbox.routing.registerRoute(new RegExp('^https?://jsdelivr.net/?$'), workbox.strategies.networkFirst());
-
-    workbox.routing.registerRoute(new RegExp('.*.html'), workbox.strategies.networkFirst());
-
-    workbox.routing.registerRoute(new RegExp('.*.(?:js|css)'), workbox.strategies.staleWhileRevalidate());
-
-    workbox.routing.registerRoute(new RegExp('https://https://cdn.jsdelivr.net/'), workbox.strategies.cacheFirst());
-}]]></content>
-  </entry>
-  <entry>
     <title>صفحه نخست</title>
     <url>/index.html</url>
     <content><![CDATA[<p><img src="./assets/images/tree.svg#main-poster" alt="استدیو کنار"></p>
@@ -119,6 +99,26 @@ if (workbox) {
 <li><a href="https://konar.studio/about">اطلاعات توسعه دهنده</a></li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/sw.js</url>
+    <content><![CDATA[
+importScripts('https://g.alicdn.com/kg/workbox/3.3.0/workbox-sw.js');
+
+if (workbox) {
+    workbox.setConfig({ modulePathPrefix: 'https://g.alicdn.com/kg/workbox/3.3.0/' });
+
+    workbox.precaching.precache(['/', '/index.html']);
+
+    workbox.routing.registerRoute(new RegExp('^https?://jsdelivr.net/?$'), workbox.strategies.networkFirst());
+
+    workbox.routing.registerRoute(new RegExp('.*.html'), workbox.strategies.networkFirst());
+
+    workbox.routing.registerRoute(new RegExp('.*.(?:js|css)'), workbox.strategies.staleWhileRevalidate());
+
+    workbox.routing.registerRoute(new RegExp('https://https://cdn.jsdelivr.net/'), workbox.strategies.cacheFirst());
+}]]></content>
   </entry>
   <entry>
     <title>404</title>
