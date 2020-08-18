@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+     <html lang="fa" dir="rtl">
 <head><link rel=manifest href=/manifest.json?v1.1>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -35,7 +35,7 @@
 <link rel="canonical" href="https://konar-studio.github.io/Front-Page/categories/Sports/">
 
 
-<script class="page-configurations">
+<script data-pjax class="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
@@ -133,17 +133,17 @@
   </li>
         <li class="menu-item menu-item-solutions">
 
-    <a href="/solutions/" rel="section"><i class="fa fa-hands-helping fa-fw"></i>solutions</a>
+    <a href="/solutions/" rel="section"><i class="fa fa-hands-helping fa-fw"></i>راه حل‌ها</a>
 
   </li>
         <li class="menu-item menu-item-blog">
 
-    <a href="/blogs/" rel="section"><i class="fa fa-blog fa-fw"></i>blog</a>
+    <a href="/blogs/" rel="section"><i class="fa fa-blog fa-fw"></i>بلاگ</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="fa fa-tree fa-fw"></i>درباره</a>
+    <a href="/about/" rel="section"><i class="fa fa-tree fa-fw"></i>درباره‌ما</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -377,6 +377,7 @@
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js"></script>
 
 <script src="/js/utils.js"></script>
 
@@ -387,6 +388,39 @@
 
 
 <script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '.page-configurations',
+    '.main-inner',
+    '.post-toc-wrap',
+    '.languages',
+    '.pjax'
+  ],
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+document.addEventListener('pjax:success', () => {
+  pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  const hasTOC = document.querySelector('.post-toc');
+  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
+  document.querySelector(hasTOC ? '.sidebar-nav-toc' : '.sidebar-nav-overview').click();
+  NexT.utils.updateSidebarPosition();
+});
+</script>
 
 
   
@@ -407,7 +441,7 @@
 
 
 
-<script>
+<script data-pjax>
 if (document.querySelectorAll('pre.mermaid').length) {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
     mermaid.init({
@@ -422,12 +456,23 @@ if (document.querySelectorAll('pre.mermaid').length) {
 </script>
 
 
+
+<script data-pjax>
+if (document.querySelectorAll('.app-section').length) {
+  NexT.utils.getScript('/wasmApp-core.js', () => {
+  });
+}
+</script>
+
+
+    <div class="pjax">
   
 
   
 
+    </div>
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1597775470176')
+  navigator.serviceWorker.register('/sw.js?t=1597777824948')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }

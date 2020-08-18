@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+     <html lang="fa" dir="rtl">
 <head><link rel=manifest href=/manifest.json?v1.1>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -30,8 +30,8 @@
 <meta property="og:description" content="کارگاه نوآوری های روزمره :استودیو کنار : کارخانه متن بازمتن‌باز( اوپن سورس ) به سیستم هایی می گویند که کاربر یا مصرف کننده بک گراند نرم افزاری یا بهتر بگوییم ،‌روش کار سیستم را به راحتی می تواند ببین">
 <meta property="og:locale">
 <meta property="og:image" content="https://konar-studio.github.io/Front-Page/assets/images/tree.svg#main-poster">
-<meta property="article:published_time" content="2020-05-13T23:14:49.000Z">
-<meta property="article:modified_time" content="2020-08-04T05:46:30.845Z">
+<meta property="article:published_time" content="2020-08-13T23:14:49.000Z">
+<meta property="article:modified_time" content="2020-08-18T18:56:56.880Z">
 <meta property="article:author" content="Ali Zemani">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://konar-studio.github.io/Front-Page/assets/images/tree.svg#main-poster">
@@ -39,7 +39,7 @@
 <link rel="canonical" href="https://konar-studio.github.io/Front-Page/">
 
 
-<script class="page-configurations">
+<script data-pjax class="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
@@ -138,17 +138,17 @@
   </li>
         <li class="menu-item menu-item-solutions">
 
-    <a href="/solutions/" rel="section"><i class="fa fa-hands-helping fa-fw"></i>solutions</a>
+    <a href="/solutions/" rel="section"><i class="fa fa-hands-helping fa-fw"></i>راه حل‌ها</a>
 
   </li>
         <li class="menu-item menu-item-blog">
 
-    <a href="/blogs/" rel="section"><i class="fa fa-blog fa-fw"></i>blog</a>
+    <a href="/blogs/" rel="section"><i class="fa fa-blog fa-fw"></i>بلاگ</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="fa fa-tree fa-fw"></i>درباره</a>
+    <a href="/about/" rel="section"><i class="fa fa-tree fa-fw"></i>درباره‌ما</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -264,30 +264,18 @@
   
   
 
-        <div class="content page posts-expand">
+        <div class="content page posts-expand main-page">
           
 
     
     
     
     <div class="post-block" lang="fa">
-      <header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">صفحه نخست
-</h1>
-
-<div class="post-meta">
-  
-
-</div>
-
-</header>
-
       
       
       
       <div class="post-body">
-          <p><img src="./assets/images/tree.svg#main-poster" alt="استدیو کنار"></p>
+           <p><img src="./assets/images/tree.svg#main-poster" alt="استدیو کنار"></p>
 <h1 id="کارگاه-نوآوری-های-روزمره"><a href="#کارگاه-نوآوری-های-روزمره" class="headerlink" title="کارگاه نوآوری های روزمره :"></a><strong>کارگاه نوآوری های روزمره :</strong></h1><h5 id="استودیو-کنار-کارخانه-متن-باز"><a href="#استودیو-کنار-کارخانه-متن-باز" class="headerlink" title="استودیو کنار : کارخانه متن باز"></a>استودیو کنار : کارخانه متن باز</h5><p>متن‌باز( اوپن سورس ) به سیستم هایی می گویند که کاربر یا مصرف کننده بک گراند نرم افزاری یا بهتر بگوییم ،‌روش کار سیستم را به راحتی می تواند ببیند و در مواردی که مصرف کننده توانایی فنی درک و توسعه سیستم را داشته باشد،می تواند نسخه شخصی شده ای از آن سیستم را توسعه دهد و یا به رفع مشکلات سیستم کمک کند.</p>
 <p>اصولا فلسفه ی متن‌باز ( اوپن سورس )، بر پایه ی اجتماع کاربران و مصرف کننده ها ساخته شده است ، جامعه ای که به کمک همدیگر ،ابزار ها و سیستم های بهتر و قابل اعتماد تری را خلق ،‌توسعه و نگه داری میکنند .</p>
 <h6 id="جهت-آشنایی-بیشتر"><a href="#جهت-آشنایی-بیشتر" class="headerlink" title="جهت آشنایی بیشتر:"></a>جهت آشنایی بیشتر:</h6><div class="link-grid"><div class="link-grid-container">
@@ -428,6 +416,7 @@
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js"></script>
 
 <script src="/js/utils.js"></script>
 
@@ -438,6 +427,39 @@
 
 
 <script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '.page-configurations',
+    '.main-inner',
+    '.post-toc-wrap',
+    '.languages',
+    '.pjax'
+  ],
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+document.addEventListener('pjax:success', () => {
+  pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  const hasTOC = document.querySelector('.post-toc');
+  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
+  document.querySelector(hasTOC ? '.sidebar-nav-toc' : '.sidebar-nav-overview').click();
+  NexT.utils.updateSidebarPosition();
+});
+</script>
 
 
   
@@ -458,7 +480,7 @@
 
 
 
-<script>
+<script data-pjax>
 if (document.querySelectorAll('pre.mermaid').length) {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
     mermaid.init({
@@ -473,12 +495,23 @@ if (document.querySelectorAll('pre.mermaid').length) {
 </script>
 
 
+
+<script data-pjax>
+if (document.querySelectorAll('.app-section').length) {
+  NexT.utils.getScript('/wasmApp-core.js', () => {
+  });
+}
+</script>
+
+
+    <div class="pjax">
   
 
   
 
+    </div>
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1597775470176')
+  navigator.serviceWorker.register('/sw.js?t=1597777824948')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
