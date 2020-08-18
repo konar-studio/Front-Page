@@ -13,7 +13,7 @@ timezone: 'Asia/Tehran'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://konar-studio.github.io/Front-Page/
+url: https://konar.studio
 root: /
 permalink: blogs/:title/
 permalink_defaults:
