@@ -1,0 +1,17 @@
+{
+    "folders": [
+      {
+        "path": "vscode"
+      },
+      {
+        "path": "vscode-docs"
+      },
+      {
+        "path": "vscode-generator-code"
+      }
+    ],
+    "settings": {
+      "window.zoomLevel": 1,
+      "files.autoSave": "afterDelay"
+    }
+  }

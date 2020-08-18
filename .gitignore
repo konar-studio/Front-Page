@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+.directory
+db.json
+package-lock.json
+avr-build
+/source/solutions/surface-scanner/build

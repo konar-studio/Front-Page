@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "/dev/ttyACM0",
+    "programmer": "AVRISP mkII",
+    "output": "./avr-build",
+    "sketch": "sound-aruino/sound-aruino.ino"
+}
