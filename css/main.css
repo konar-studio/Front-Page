@@ -2899,7 +2899,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e85de2;
+  background: #90033b;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3212,6 +3212,9 @@ hr {
 }
 pre.mermaid {
   background: none;
+}
+pre.mermaid .label {
+  font-family: Vazir-Web !important;
 }
 .site-author-image {
   max-width: 140px;
