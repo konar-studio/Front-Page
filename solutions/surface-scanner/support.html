@@ -11,8 +11,6 @@
   <link rel="mask-icon" href="/images/logo.svg" color="#01b4b4">
 
 <link rel="stylesheet" href="/css/main.css">
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Vazir-Web:300,300italic,400,400italic,700,700italic|Vazir-Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
   
   <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
@@ -385,7 +383,7 @@
 
   
   <script src="/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
 
 <script src="/js/utils.js"></script>
 
@@ -451,7 +449,7 @@ document.addEventListener('pjax:success', () => {
 
 <script data-pjax>
 if (document.querySelectorAll('pre.mermaid').length) {
-  NexT.utils.getScript('/local', () => {
+  NexT.utils.getScript('/lib/mermaid/mermaid.min.js', () => {
     mermaid.init({
       theme    : 'default',
       logLevel : 3,
@@ -480,7 +478,7 @@ if (document.querySelectorAll('.app-section').length) {
 
     </div>
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1597777865774')
+  navigator.serviceWorker.register('/sw.js?t=1597778448661')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
