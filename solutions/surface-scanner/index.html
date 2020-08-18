@@ -17,13 +17,13 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"konar-studio.github.io","root":"/","scheme":"Mist","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"right","display":"hide","padding":18,"offset":12,"onmobile":true},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"konar.studio","root":"/","scheme":"Mist","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"right","display":"hide","padding":18,"offset":12,"onmobile":true},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="سربرگ اولصورت مجلس تفکیکی به تعریف حدود اربعه‌ی واحد‌های مستقل و و ذکر مساحت و شماره گذاری آن‌ها می‌پردازد و در صورت‌مجلس تفکیکی، مالکیت بخش‌های اختصاصی تعیین نمی‌شود. در اینصورت اگر کل ملک، قبل از تف">
 <meta property="og:type" content="website">
 <meta property="og:title" content="اسکنر سطحی">
-<meta property="og:url" content="https://konar-studio.github.io/Front-Page/solutions/surface-scanner/index.html">
+<meta property="og:url" content="https://konar.studio/solutions/surface-scanner/index.html">
 <meta property="og:site_name" content="استودیو کنار">
 <meta property="og:description" content="سربرگ اولصورت مجلس تفکیکی به تعریف حدود اربعه‌ی واحد‌های مستقل و و ذکر مساحت و شماره گذاری آن‌ها می‌پردازد و در صورت‌مجلس تفکیکی، مالکیت بخش‌های اختصاصی تعیین نمی‌شود. در اینصورت اگر کل ملک، قبل از تف">
 <meta property="og:locale">
@@ -35,7 +35,7 @@
 <meta property="article:tag" content="test">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://konar-studio.github.io/Front-Page/solutions/surface-scanner/">
+<link rel="canonical" href="https://konar.studio/solutions/surface-scanner/">
 
 
 <script data-pjax class="page-configurations">
@@ -338,6 +338,7 @@
 
         </div>
         
+    <div class="comments" id="hyvor-comments"><div id="hyvor-talk-view"></div></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -500,9 +501,25 @@ if (document.querySelectorAll('.app-section').length) {
 
   
 
+
+<script>
+  if (document.getElementById('hyvor-comments')) {
+    NexT.utils.loadComments('#hyvor-talk-view', () => {
+        HYVOR_TALK_WEBSITE = '1312',
+          HYVOR_TALK_CONFIG = {
+                url: 'https://konar.studio/solutions/surface-scanner/index.html',
+                id: 'solutions/surface-scanner/index.html',
+              }
+      NexT.utils.getScript('//talk.hyvor.com/web-api/embed', () => {
+      }, window.hyvor);
+    });
+  }
+</script>
+
+
     </div>
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1597778448661')
+  navigator.serviceWorker.register('/sw.js?t=1597779857885')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
