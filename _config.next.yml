@@ -118,7 +118,7 @@ social:
 site_state: false
 
 avatar:
-  url: /assets/images/tree.svg
+  url: /assets/images/favicon-32x32.png
 
 font:
   # Use custom fonts families or not.
