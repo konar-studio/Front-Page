@@ -5,7 +5,7 @@
 # Site
 title: استودیو کنار
 subtitle: 'کارگاه نوآوری های روزمره'
-description: 'An Opensourse factory in all shapes'
+description: 'An Opensource factory in all shapes'
 keywords:
 author: Ali Zemani
 language: fa
@@ -114,7 +114,7 @@ pwa:
     body:
       name: استودیو کنار
       short_name: 'کارگاه نوآوری های روزمره'
-      description: "An Opensourse factory in all shapes."
+      description: "An Opensource factory in all shapes."
       icons:
         - src: /assets/images/android-chrome-192x192.png
           sizes: 192x192
