@@ -127,11 +127,6 @@ if (workbox) {
 ]]></content>
   </entry>
   <entry>
-    <title>categories</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>درباره ما</title>
     <url>/about/index.html</url>
     <content><![CDATA[<h1 id="مقدمه"><a href="#مقدمه" class="headerlink" title="مقدمه"></a>مقدمه</h1><p>متن‌باز( اوپن سورس ) به سیستم هایی می گویند که کاربر یا مصرف کننده بک گراند نرم افزاری یا بهتر بگوییم ،‌روش کار سیستم را به راحتی می تواند ببیند و در مواردی که مصرف کننده توانایی فنی درک و توسعه سیستم را داشته باشد،می تواند نسخه شخصی شده ای از آن سیستم را توسعه دهد و یا به رفع مشکلات سیستم کمک کند.</p>
@@ -184,10 +179,22 @@ D[تولید انبوه  ] --&gt; E(پشتیبانی و خدمات پس از ف�
 ]]></content>
   </entry>
   <entry>
+    <title>categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>تماس با ما</title>
     <url>/contact/index.html</url>
     <content><![CDATA[<h1 id="اطلاعات-تماس-باما"><a href="#اطلاعات-تماس-باما" class="headerlink" title="اطلاعات تماس باما"></a>اطلاعات تماس باما</h1><h1 id="واتس-اپ"><a href="#واتس-اپ" class="headerlink" title="واتس اپ"></a>واتس اپ</h1><p>تماس از طریق واتس اپ :</p>
 <h1 id="ایمیل"><a href="#ایمیل" class="headerlink" title="ایمیل"></a>ایمیل</h1><p>ایمیل ارتباطی :</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Front Pgae</title>
+    <url>/en/index.html</url>
+    <content><![CDATA[<p><img src="/assets/images/tree.svg#main-poster" alt="استدیو کنار"></p>
+<p>Comming Soon :)</p>
 ]]></content>
   </entry>
   <entry>

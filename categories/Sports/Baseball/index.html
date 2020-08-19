@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-     <html lang="fa" dir="rtl">
+     <html lang="fa,en,default" dir="rtl">
 <head><link rel=manifest href=/manifest.json?v1.1>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -335,6 +335,24 @@
     <footer class="footer">
       <div class="footer-inner">
         
+  <div class="languages">
+    <label class="lang-select-label">
+      <i class="fa fa-language"></i>
+      <span>فارسی</span>
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </label>
+    <select class="lang-select" data-canonical="">
+      
+        <option value="fa" data-href="/categories/Sports/Baseball/index.html" selected="">
+          فارسی
+        </option>
+      
+        <option value="en" data-href="/en/categories/Sports/Baseball/index.html" selected="">
+          English
+        </option>
+      
+    </select>
+  </div>
 
         
 
@@ -486,7 +504,7 @@ if (document.querySelectorAll('.app-section').length) {
 
     </div>
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1597843486971')
+  navigator.serviceWorker.register('/sw.js?t=1597845525255')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
