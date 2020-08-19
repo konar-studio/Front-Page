@@ -16,7 +16,14 @@ menu:
   schedule: Schedule
   sitemap: Sitemap
   commonweal: Commonweal 404
-
+  solutions: Solutions
+  support: Support 
+  finance: Finance
+  blog: Blog
+  contact : Contact
+  surface-scanner: Surface Scanner
+  app : App
+  provider: Provider
 sidebar:
   overview: Overview
   toc: Table of Contents

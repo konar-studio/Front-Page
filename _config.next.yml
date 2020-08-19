@@ -230,3 +230,6 @@ vendors:
 wasmApp:
   enable: true
   url: '/wasmApp-core.js'
+
+# Show multilingual switcher in footer.
+language_switcher: true

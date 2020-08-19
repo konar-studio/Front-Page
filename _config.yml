@@ -8,7 +8,10 @@ subtitle: 'کارگاه نوآوری های روزمره'
 description: 'An Opensource factory in all shapes'
 keywords:
 author: Ali Zemani
-language: fa
+language:
+  - fa
+  - en
+
 timezone: 'Asia/Tehran'
 
 # URL
