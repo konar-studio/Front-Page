@@ -20,12 +20,12 @@ comments: false
 ###### جهت آشنایی بیشتر:
 
 {% linkgrid %}
-کارخانه متن‌باز | https://konar.studio/about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-فلسفه کاری  | https://konar.studio/about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-توسعه دهنده | https://konar.studio/about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-بخش آموزشی | https://konar.studio/about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-مدل درآمدی  | https://konar.studio/about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-پرسش های متداول | https://konar.studio/about | Stay Simple. Stay NexT. | /assets/images/tree.svg
+کارخانه متن‌باز | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
+فلسفه کاری  | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
+توسعه دهنده | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
+بخش آموزشی | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
+مدل درآمدی  | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
+پرسش های متداول | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
 {% endlinkgrid %}
 
 ------
@@ -39,10 +39,10 @@ comments: false
 ### اسکنر سطحی :
 
 {% linkgrid %}
-آموزش ساخت  | https://konar.studio/solutions/surface-scanner/ | Stay Simple. Stay NexT. | /assets/images/tree.svg
-وب اپلیکیشن | https://konar.studio/solutions/surface-scanner/app.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
-پشتیبانی | https://konar.studio/solutions/surface-scanner/support.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
-ارائه دهنده ها | https://konar.studio/solutions/surface-scanner/providers.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
+آموزش ساخت  | /solutions/surface-scanner/ | Stay Simple. Stay NexT. | /assets/images/tree.svg
+وب اپلیکیشن | /solutions/surface-scanner/app.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
+پشتیبانی | /solutions/surface-scanner/support.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
+ارائه دهنده ها | /solutions/surface-scanner/providers.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
 {% endlinkgrid %}
 
 
@@ -51,8 +51,8 @@ comments: false
 
 # پیوند های مفید :
 
-- [برچسب ها](https://konar.studio/tags)
-- [اطلاعات تماس](https://konar.studio/contact)
-- [دسته بندی ها](https://konar.studio/categories)
-- [اطلاعات توسعه دهنده](https://konar.studio/about)
+- [برچسب ها](/tags)
+- [اطلاعات تماس](/contact)
+- [دسته بندی ها](/categories)
+- [اطلاعات توسعه دهنده](/about)
 
