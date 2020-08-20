@@ -236,7 +236,7 @@ language_switcher: true
 
 # Google Analytics
 google_analytics:
-  tracking_id: UA-175820342-1
+  tracking_id: UA-175886923-1
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
