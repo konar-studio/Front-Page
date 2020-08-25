@@ -108,10 +108,10 @@ favicon:
 
 social:
   GitHub: https://github.com/konar-studio || fab fa-github
-  E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  Twitter: https://twitter.com/yourname || fab fa-twitter
+  # E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  # Twitter: https://twitter.com/yourname || fab fa-twitter
   YouTube: https://www.youtube.com/channel/UCsWKGcdAup7dse0Gyk5_SxA || fab fa-youtube
-  Instagram: https://instagram.com/yourname || fab fa-instagram
+  # Instagram: https://instagram.com/yourname || fab fa-instagram
 
 
 
@@ -161,13 +161,7 @@ font:
     external: true
     family: Vazir-Code
 
-## Gundb
-gundb:
-  enable: false
-
-
 # Mermaid tag
-
 mermaid:
   enable: true
   # Available themes: default | dark | forest | neutral
@@ -175,7 +169,7 @@ mermaid:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  # since: 2020
 
   # Icon between year and copyright info.
   icon:
@@ -194,9 +188,6 @@ footer:
 
 android_chrome_color: "#01b4b4"
 
-symbols_count_time:
-  symbols: false
-  wpm: 275
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)

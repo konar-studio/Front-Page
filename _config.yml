@@ -204,3 +204,9 @@ youtuber:
   frameborder: 0
   iv_load_policy: 0
   playsinline: 1
+  
+symbols_count_time:
+  symbols: true
+  wpm: 275
+  total_time: false
+  total_symbols: false
