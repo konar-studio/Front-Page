@@ -12,8 +12,8 @@ tags:
 
 در اینجا آموزش ساخت همراه با ویديو و توضیحات و رفرنس های مربوطه ارايه میشود
 
-{% youtube SvDT_PzgEoE %}
-
+{% youtuber playlist PLA567CE235D39FA84 %}
+{% endyoutuber %}
 ---
 
 # توضیحات و رفرنس های مربوط

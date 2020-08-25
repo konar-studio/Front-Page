@@ -196,3 +196,11 @@ generator_amp:
     width:  1024
     height: 800
   warningLog: false   # To display warning, please set true.
+
+youtuber:
+  allowfullscreen: yes
+  # color: white
+  hl: fa
+  frameborder: 0
+  iv_load_policy: 0
+  playsinline: 1
