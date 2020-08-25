@@ -21,7 +21,6 @@
         {{- menu_item.render(name, itemName, respath) | trim }}
       {%- endif %}
     {%- endfor %}
-
     {%- if theme.algolia_search.enable or theme.local_search.enable %}
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger">
@@ -29,6 +28,9 @@
         </a>
       </li>
     {%- endif %}
+
+    {{ partial('_partials/languages.njk', {}, {cache: theme.cache.enable}) }}
+    
   </ul>
 </nav>
 {%- endif %}

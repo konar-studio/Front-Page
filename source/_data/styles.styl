@@ -71,7 +71,6 @@ html[dir*="rtl"] {
     .menu {
         margin-top: 0px;
         padding-right: 0;
-        text-align: center;
     }
     .posts-collapse::before {
         left: auto;
@@ -123,8 +122,11 @@ html[dir*="rtl"] {
             color:#01b4b4
         }  
     }
+    .menu  {
+            text-align: left;
+        }
     html[dir*="rtl"] {
-        .menu .menu-item a, .menu .menu-item span.exturl {
+        .menu .menu-item a, .menu .menu-item span.exturl,.menu {
                 text-align: right;
             }
     }
@@ -249,4 +251,16 @@ pre.mermaid{
 
 .post-body .video-container {
     position: unset;    
+}
+.languages {
+    display: inline-block;
+    font-size: 0.8125em;
+    position: relative;
+    border-radius: 2px;
+    padding: 0 10px;
+    transition-property: background;
+    i{
+        color: #34c3c3;
+        font-size: 1.1em;
+    }
 }
