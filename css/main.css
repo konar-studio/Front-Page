@@ -2899,7 +2899,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff9061;
+  background: #1f7ce5;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3120,6 +3120,9 @@ html[dir*="rtl"] .posts-collapse .collection-header {
 html[dir*="rtl"] .posts-collapse .post-header {
   padding-right: 15px;
   padding-left: 0;
+}
+html[dir*="rtl"] .footer-inner {
+  text-align: right;
 }
 @media (max-width: 767px) {
   .menu-item.menu-item-install {
