@@ -90,7 +90,7 @@
 </div><div class="link-grid-container">
 <div class="link-grid-image" style="background-image: url(/assets/images/tree.svg);"></div>
 <p>تامین کننده های محلی</p><p>...</p>
-<a href="/solutions/surface-scanner/providers"></a>
+<a href="/solutions/surface-scanner/providers/"></a>
 </div><div class="link-grid-container">
 <div class="link-grid-image" style="background-image: url(/assets/images/tree.svg);"></div>
 <p>پشتیبانی</p><p>...</p>
@@ -132,25 +132,6 @@ if (workbox) {
     <title>404</title>
     <url>/404/index.html</url>
     <content><![CDATA[<p>این صفحه وجود ندارد</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>تماس با ما</title>
-    <url>/contact/index.html</url>
-    <content><![CDATA[<h1 id="اطلاعات-تماس-باما"><a href="#اطلاعات-تماس-باما" class="headerlink" title="اطلاعات تماس باما"></a>اطلاعات تماس باما</h1><h1 id="واتس-اپ"><a href="#واتس-اپ" class="headerlink" title="واتس اپ"></a>واتس اپ</h1><p>تماس از طریق واتس اپ :</p>
-<h1 id="ایمیل"><a href="#ایمیل" class="headerlink" title="ایمیل"></a>ایمیل</h1><p>ایمیل ارتباطی :</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>categories</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Front Pgae</title>
-    <url>/en/index.html</url>
-    <content><![CDATA[<p><img src="/assets/images/tree.svg#main-poster" alt="استدیو کنار"></p>
-<p>Comming Soon :)</p>
 ]]></content>
   </entry>
   <entry>
@@ -203,6 +184,25 @@ D[تولید انبوه  ] --&gt; E(پشتیبانی و خدمات پس از ف�
 <p>در محصولات رایگان نیازی به خرید و فعال سازی نرم افزار نیست ولی در محصولاتی که به صورت پرداختی ،‌معرفی می شوند باید لایسنس کد تهیه شود. فرایند خرید و تهیه لایسنس کد به کمک فناوری بلاک چین و بستر توسعه اتریوم کار میکند .</p>
 <p>بخش دوم سیستم درآمدی ،فروش و عرضه ی فیزیکی محصول است . در این بخش که بخش سخت افزاری و باندل کردن محصول است به گونه ای در نظر گرفته شده است که از محصولات متن باز و مرسوم بازار استفاده شود تا بخش تامین مواد اولیه و سخت افزار های لازم ،‌راحت تر شود .</p>
 <p>این بخش به صورت تامین کننده های محلی در وبسایت معرفی شده است و همانطور که قبلا گفته شد هر کسی که دانش فنی لازم را داشته باشد می تواند خود را به صورت تولید کننده محلی در وب‌سایت ،ثبت کند .</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>تماس با ما</title>
+    <url>/contact/index.html</url>
+    <content><![CDATA[<h1 id="اطلاعات-تماس-باما"><a href="#اطلاعات-تماس-باما" class="headerlink" title="اطلاعات تماس باما"></a>اطلاعات تماس باما</h1><h1 id="واتس-اپ"><a href="#واتس-اپ" class="headerlink" title="واتس اپ"></a>واتس اپ</h1><p>تماس از طریق واتس اپ :</p>
+<h1 id="ایمیل"><a href="#ایمیل" class="headerlink" title="ایمیل"></a>ایمیل</h1><p>ایمیل ارتباطی :</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Front Pgae</title>
+    <url>/en/index.html</url>
+    <content><![CDATA[<p><img src="/assets/images/tree.svg#main-poster" alt="استدیو کنار"></p>
+<p>Comming Soon :)</p>
 ]]></content>
   </entry>
   <entry>
