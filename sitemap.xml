@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://konar.studio/solutions/surface-scanner/diy/index.html</loc>
+    <loc>https://konar.studio/solutions/index.html</loc>
     
     <lastmod>2020-08-25</lastmod>
     
@@ -10,6 +10,13 @@
   
   <url>
     <loc>https://konar.studio/index.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/solutions/surface-scanner/diy/index.html</loc>
     
     <lastmod>2020-08-25</lastmod>
     
@@ -31,13 +38,6 @@
   
   <url>
     <loc>https://konar.studio/solutions/surface-scanner/providers/index.html</loc>
-    
-    <lastmod>2020-08-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://konar.studio/solutions/index.html</loc>
     
     <lastmod>2020-08-25</lastmod>
     

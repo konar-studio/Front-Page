@@ -78,15 +78,15 @@
 </div><div class="link-grid-container">
 <div class="link-grid-image" style="background-image: url(/assets/images/tree.svg);"></div>
 <p>وب اپلیکیشن</p><p>...</p>
-<a href="/solutions/surface-scanner/wapp"></a>
+<a href="/solutions/surface-scanner/wapp/"></a>
 </div><div class="link-grid-container">
 <div class="link-grid-image" style="background-image: url(/assets/images/tree.svg);"></div>
 <p>آموزش ساخت</p><p>...</p>
-<a href="/solutions/surface-scanner/diy"></a>
+<a href="/solutions/surface-scanner/diy/"></a>
 </div><div class="link-grid-container">
 <div class="link-grid-image" style="background-image: url(/assets/images/tree.svg);"></div>
 <p>راه‌نمای توسعه دهنده‌ها</p><p>...</p>
-<a href="/solutions/surface-scanner/developer"></a>
+<a href="/solutions/surface-scanner/developer/"></a>
 </div><div class="link-grid-container">
 <div class="link-grid-image" style="background-image: url(/assets/images/tree.svg);"></div>
 <p>تامین کننده های محلی</p><p>...</p>
@@ -94,7 +94,7 @@
 </div><div class="link-grid-container">
 <div class="link-grid-image" style="background-image: url(/assets/images/tree.svg);"></div>
 <p>پشتیبانی</p><p>...</p>
-<a href="/solutions/surface-scanner/support"></a>
+<a href="/solutions/surface-scanner/support/"></a>
 </div></div>
 
 
@@ -209,12 +209,12 @@ D[تولید انبوه  ] --&gt; E(پشتیبانی و خدمات پس از ف�
     <title>راه حل ها</title>
     <url>/solutions/index.html</url>
     <content><![CDATA[<h2 id="اسکنر-سطحی"><a href="#اسکنر-سطحی" class="headerlink" title="اسکنر سطحی"></a>اسکنر سطحی</h2><ul>
-<li><a href="surface-scanner/wapp">وب اپلیکیشن</a></li>
+<li><a href="surface-scanner/wapp/">وب اپلیکیشن</a></li>
 <li><a href="surface-scanner/">معرفی</a></li>
-<li><a href="surface-scanner/diy">آموزش ساخت</a></li>
-<li><a href="surface-scanner/developer">راه‌نمای توسعه دهنده‌ها</a></li>
-<li><a href="surface-scanner/providers">تامین کننده های محلی</a></li>
-<li><a href="surface-scanner/support">پشتیبانی</a></li>
+<li><a href="surface-scanner/diy/">آموزش ساخت</a></li>
+<li><a href="surface-scanner/developer/">راه‌نمای توسعه دهنده‌ها</a></li>
+<li><a href="surface-scanner/providers/">تامین کننده های محلی</a></li>
+<li><a href="surface-scanner/support/">پشتیبانی</a></li>
 </ul>
 ]]></content>
   </entry>
