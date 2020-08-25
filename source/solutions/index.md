@@ -11,8 +11,10 @@ comments: false
 
 ## اسکنر سطحی
 
-- [معرفی و آموزش ساخت](surface-scanner/)
-- [وب اپلیکیشن](surface-scanner/app.html)
-- [پشتیبانی](surface-scanner/support.html)
-- [تامین کننده های محلی](surface-scanner/providers.html)
+- [وب اپلیکیشن](surface-scanner/wapp)
+- [معرفی](surface-scanner/)
+- [آموزش ساخت](surface-scanner/diy)
+- [راه‌نمای توسعه دهنده‌ها](surface-scanner/developer)
+- [تامین کننده های محلی](surface-scanner/providers)
+- [پشتیبانی](surface-scanner/support)
 

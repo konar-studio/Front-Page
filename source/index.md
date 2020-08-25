@@ -20,12 +20,12 @@ comments: false
 ###### جهت آشنایی بیشتر:
 
 {% linkgrid %}
-کارخانه متن‌باز | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-فلسفه کاری  | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-توسعه دهنده | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-بخش آموزشی | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-مدل درآمدی  | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
-پرسش های متداول | /about | Stay Simple. Stay NexT. | /assets/images/tree.svg
+کارخانه متن‌باز | /about/#کارخانه-متن%E2%80%8Cباز |... | /assets/images/tree.svg
+فلسفه کاری  | /about/#فلسفه-کاری |... | /assets/images/tree.svg
+توسعه دهنده | /about/#توسعه-دهنده |... | /assets/images/tree.svg
+بخش آموزشی | /about/#بخش-آموزشی |... | /assets/images/tree.svg
+مدل درآمدی  | /about/#مدل-درآمدی |... | /assets/images/tree.svg
+پرسش های متداول | /about |... | /assets/images/tree.svg
 {% endlinkgrid %}
 
 ------
@@ -39,10 +39,12 @@ comments: false
 ### اسکنر سطحی :
 
 {% linkgrid %}
-آموزش ساخت  | /solutions/surface-scanner/ | Stay Simple. Stay NexT. | /assets/images/tree.svg
-وب اپلیکیشن | /solutions/surface-scanner/app.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
-پشتیبانی | /solutions/surface-scanner/support.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
-ارائه دهنده ها | /solutions/surface-scanner/providers.html | Stay Simple. Stay NexT. | /assets/images/tree.svg
+معرفی | /solutions/surface-scanner/ |... | /assets/images/tree.svg
+وب اپلیکیشن | /solutions/surface-scanner/wapp |... | /assets/images/tree.svg
+آموزش ساخت  | /solutions/surface-scanner/diy |... | /assets/images/tree.svg
+راه‌نمای توسعه دهنده‌ها | /solutions/surface-scanner/developer |... | /assets/images/tree.svg
+تامین کننده های محلی | /solutions/surface-scanner/providers |... | /assets/images/tree.svg
+پشتیبانی | /solutions/surface-scanner/support |... | /assets/images/tree.svg
 {% endlinkgrid %}
 
 
