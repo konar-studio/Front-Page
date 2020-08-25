@@ -2899,7 +2899,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #52ffa3;
+  background: #081814;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3251,4 +3251,7 @@ pre.mermaid .label {
 .back-to-top,
 .reading-progress-bar {
   z-index: 1000 !important;
+}
+.post-body .video-container {
+  position: unset;
 }
