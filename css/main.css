@@ -2899,7 +2899,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8ed4ba;
+  background: #ff9061;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3271,5 +3271,5 @@ pre.mermaid .label {
   font-size: 1.1em;
 }
 .languages span {
-  margin: 0;
+  margin: 0 !important;
 }
