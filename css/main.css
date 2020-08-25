@@ -2899,7 +2899,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #081814;
+  background: #5e0a6b;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3088,7 +3088,6 @@ html[dir*="rtl"] .github-corner svg {
 html[dir*="rtl"] .menu {
   margin-top: 0px;
   padding-right: 0;
-  text-align: center;
 }
 html[dir*="rtl"] .posts-collapse::before {
   left: auto;
@@ -3132,8 +3131,12 @@ html[dir*="rtl"] .posts-collapse .post-header {
   div.install-trigger i {
     color: #01b4b4;
   }
+  .menu {
+    text-align: left;
+  }
   html[dir*="rtl"] .menu .menu-item a,
-  html[dir*="rtl"] .menu .menu-item span.exturl {
+  html[dir*="rtl"] .menu .menu-item span.exturl,
+  html[dir*="rtl"] .menu {
     text-align: right;
   }
   img[src*="#main-poster"] {
@@ -3254,4 +3257,16 @@ pre.mermaid .label {
 }
 .post-body .video-container {
   position: unset;
+}
+.languages {
+  display: inline-block;
+  font-size: 0.8125em;
+  position: relative;
+  border-radius: 2px;
+  padding: 0 10px;
+  transition-property: background;
+}
+.languages i {
+  color: #34c3c3;
+  font-size: 1.1em;
 }
