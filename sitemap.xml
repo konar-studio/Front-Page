@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://konar.studio/solutions/surface-scanner/diy/index.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://konar.studio/index.html</loc>
     
-    <lastmod>2020-08-21</lastmod>
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/solutions/surface-scanner/developer/index.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/solutions/surface-scanner/support/index.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/solutions/surface-scanner/providers/index.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/solutions/index.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/solutions/surface-scanner/index.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
     
   </url>
   
@@ -16,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://konar.studio/solutions/surface-scanner/app.html</loc>
+    <loc>https://konar.studio/solutions/surface-scanner/wapp/index.html</loc>
     
     <lastmod>2020-08-18</lastmod>
     
@@ -58,37 +100,9 @@
   </url>
   
   <url>
-    <loc>https://konar.studio/solutions/index.html</loc>
-    
-    <lastmod>2020-07-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://konar.studio/blogs/sallam-donya/</loc>
     
     <lastmod>2020-07-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://konar.studio/solutions/surface-scanner/index.html</loc>
-    
-    <lastmod>2020-07-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://konar.studio/solutions/surface-scanner/providers.html</loc>
-    
-    <lastmod>2020-06-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://konar.studio/solutions/surface-scanner/support.html</loc>
-    
-    <lastmod>2020-05-22</lastmod>
     
   </url>
   
