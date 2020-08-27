@@ -30,6 +30,8 @@
     "hexo-server": "^1.0.0",
     "hexo-tag-youtube-responsive": "^0.4.2",
     "hexo-word-counter": "0.0.2",
+    "moment": "^2.27.0",
+    "moment-jalaali": "^0.9.2",
     "vue-pjax-adapter": "github:riverskies/vue-pjax-adapter"
   }
 }

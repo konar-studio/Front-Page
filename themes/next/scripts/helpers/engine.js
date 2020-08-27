@@ -3,11 +3,27 @@
 'use strict';
 
 const crypto = require('crypto');
+var moment = require('moment-jalaali');
 const nextFont = require('./font');
 const nextUrl = require('./next-url');
 
+
+
 hexo.extend.helper.register('next_font', nextFont);
 hexo.extend.helper.register('next_url', nextUrl);
+
+
+// jalali helper
+hexo.extend.helper.register('jalaali', function (date) {
+  return moment(date).format('jYYYY/jM/jD');
+});
+hexo.extend.helper.register('jalaaliyear', function (date) {
+  return moment(date).format('jYYYY');
+});
+hexo.extend.helper.register('jalaalidays', function (date) {
+  return moment(date).format('jMM-jDD');
+});
+
 
 hexo.extend.helper.register('next_inject', function (point) {
   return this.theme.injects[point]

@@ -32,7 +32,19 @@ a.install-trigger{
         color: white!important;
     }
 }
+.fa-date{
+    display: none!important;    
+}
+.en-date{
+    display: inline-block!important;    
+}
 html[dir*="rtl"] {
+    .en-date{
+        display: none!important;    
+    }
+    .fa-date{
+        display: inline-block!important;    
+    }
     .post-body .link-grid .link-grid-container p {
         margin: 0 6rem 0 1rem;
     }
@@ -258,6 +270,7 @@ pre.mermaid{
     border-radius: 2px;
     padding: 0 10px;
     transition-property: background;
+    visibility: inherit!important;
     i{
         color: #34c3c3;
         font-size: 1.1em;

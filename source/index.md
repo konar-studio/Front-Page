@@ -43,7 +43,7 @@ comments: false
 وب اپلیکیشن | /solutions/surface-scanner/wapp/ |... | /assets/images/tree.svg
 آموزش ساخت  | /solutions/surface-scanner/diy/ |... | /assets/images/tree.svg
 راه‌نمای توسعه دهنده‌ها | /solutions/surface-scanner/developer/ |... | /assets/images/tree.svg
-تامین کننده های محلی | /solutions/surface-scanner/providers |... | /assets/images/tree.svg
+تامین کننده های محلی | /solutions/surface-scanner/providers/ |... | /assets/images/tree.svg
 پشتیبانی | /solutions/surface-scanner/support/ |... | /assets/images/tree.svg
 {% endlinkgrid %}
 
