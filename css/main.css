@@ -2899,7 +2899,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6e796f;
+  background: #93fa2d;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3046,6 +3046,18 @@ a.install-trigger {
 }
 a.install-trigger i {
   color: #fff !important;
+}
+.fa-date {
+  display: none !important;
+}
+.en-date {
+  display: inline-block !important;
+}
+html[dir*="rtl"] .en-date {
+  display: none !important;
+}
+html[dir*="rtl"] .fa-date {
+  display: inline-block !important;
 }
 html[dir*="rtl"] .post-body .link-grid .link-grid-container p {
   margin: 0 6rem 0 1rem;
