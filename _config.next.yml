@@ -232,3 +232,7 @@ google_analytics:
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
+
+post_edit:
+  enable: true
+  url: https://github.com/konar-studio/Front-Page/blob/master/source/
