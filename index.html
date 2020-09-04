@@ -1,6 +1,6 @@
 <!DOCTYPE html>
      <html lang="fa,en,default" dir="rtl">
-<head><link rel=manifest href=/manifest.json?v1.1>
+<head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#01b4b4">
@@ -46,7 +46,7 @@
     lang   : 'fa'
   };
 </script>
-
+<link rel="manifest" href="/manifest.json" />
   <title>صفحه نخست | استودیو کنار
 </title>
   
@@ -544,11 +544,14 @@ if (document.querySelectorAll('.app-section').length) {
 </script>
 
 
-    </div>
-<script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1598562924383')
-    .then(function () {console.log('ServiceWorker Register Successfully.')})
-    .catch(function (e) {console.error(e)});
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
 }
-</script></body>
+</script>
+
+    </div>
+</body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
      <html lang="fa,en,default" dir="rtl">
-<head><link rel=manifest href=/manifest.json?v1.1>
+<head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#01b4b4">
@@ -44,7 +44,7 @@
     lang   : 'fa'
   };
 </script>
-
+<link rel="manifest" href="/manifest.json" />
   <title>درباره ما | استودیو کنار
 </title>
   
@@ -295,7 +295,7 @@
     <div class="post-block" lang="fa">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">درباره ما
+<h1 class="post-title" itemprop="name headline">درباره ما<a href="https://github.com/konar-studio/Front-Page/blob/master/source/about/index.md" class="post-edit-link" title="ویرایش این پست" rel="noopener" target="_blank"><i class="fa fa-pen-nib"></i></a>
 </h1>
 
 <div class="post-meta">
@@ -539,11 +539,14 @@ if (document.querySelectorAll('.app-section').length) {
 </script>
 
 
-    </div>
-<script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1598562924383')
-    .then(function () {console.log('ServiceWorker Register Successfully.')})
-    .catch(function (e) {console.error(e)});
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
 }
-</script></body>
+</script>
+
+    </div>
+</body>
 </html>
