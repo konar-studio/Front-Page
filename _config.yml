@@ -112,11 +112,14 @@ search:
   format: html
 
 pwa:
+  # Generate manifest.json
   manifest:
-    path: /manifest.json?v1.1
+    path: /manifest.json
+    # See https://developer.mozilla.org/zh-CN/docs/Web/Manifest
     body:
       name: استودیو کنار
       short_name: 'کارگاه نوآوری های روزمره'
+      lang: fa
       description: "An Opensource factory in all shapes."
       icons:
         - src: /assets/images/android-chrome-192x192.png
@@ -130,22 +133,13 @@ pwa:
       theme_color: '#01b4b4'
       background_color: '#01b4b4'
       display: standalone
+  # Generate sw.js
   serviceWorker:
-    path: /sw.js
-    preload:
-      urls:
-        - /
-      posts: 0
-    opts:
-      networkTimeoutSeconds: 5
-    routes:
-      - pattern: !!js/regexp /hm.baidu.com/
-        strategy: networkOnly
-      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
-        strategy: cacheFirst
-      - pattern: !!js/regexp /\//
-        strategy: networkFirst
-  priority: 5
+    cdn: https://cdn.jsdelivr.net/npm/workbox-sw@5/build/workbox-sw.min.js
+    # See workbox-build's `generateSW()` API
+    # Here are some default configuration, see `./default.yaml`
+    options:
+      swDest: /sw.js
 
 ## compress website
 filter_optimize:
