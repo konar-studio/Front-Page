@@ -2916,7 +2916,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff81eb;
+  background: #b8f7a1;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3156,11 +3156,11 @@ html[dir*="rtl"] .posts-collapse .post-header {
 html[dir*="rtl"] .footer-inner {
   text-align: right;
 }
+.menu-item.menu-item-install,
+.install-trigger {
+  display: none;
+}
 @media (max-width: 767px) {
-  .menu-item.menu-item-install,
-  .install-trigger {
-    display: none;
-  }
   div.install-trigger {
     background: none;
   }
