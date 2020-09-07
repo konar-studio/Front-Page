@@ -9,6 +9,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   deferredPrompt = e;
   // Update UI notify the user they can install the PWA
   document.querySelector('.menu-item-install').style.display = 'inline-block';
+  document.querySelector('.install-trigger').style.display = 'block';
 });
 
 document.querySelectorAll('.install-trigger').forEach(element => {
@@ -21,6 +22,7 @@ document.querySelectorAll('.install-trigger').forEach(element => {
       if (choiceResult.outcome === 'accepted') {
         console.log('User accepted the install prompt');
         document.querySelector('.menu-item-install').style.display = 'none';
+        document.querySelector('.install-trigger').style.display = 'none';
       } else {
         console.log('User dismissed the install prompt');
       }
