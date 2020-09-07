@@ -24,6 +24,9 @@ blockquote{
         font-style: italic
     }
 }
+.menu-item-install{
+    display: none;    
+}
 a.install-trigger{
     background: #34c3c3;
     color: white;
@@ -124,13 +127,13 @@ html[dir*="rtl"] {
 }
 
 @media (max-width: 767px) {
-    .menu-item.menu-item-install {
+    .menu-item.menu-item-install,.install-trigger {
         display: none;
     }
     div.install-trigger{
         background: none;  
         i{
-            color:#01b4b4
+            color:#555555
         }  
     }
     .menu  {
@@ -279,3 +282,5 @@ pre.mermaid{
         margin: 0!important
     }
 }
+
+ 

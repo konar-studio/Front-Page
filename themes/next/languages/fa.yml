@@ -23,6 +23,7 @@ menu:
   surface-scanner: اسکنر سطحی
   app : وب‌اپ
   provider: ارائه‌دهنده
+  install: نصب وب‌اَپ
 sidebar:
   overview: نمای کلی
   toc: فهرست مطالب

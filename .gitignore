@@ -10,3 +10,5 @@ db.json
 package-lock.json
 avr-build
 /source/solutions/surface-scanner/build
+/source/wasmApp-core.js
+/source/wasmApp-core.js.map

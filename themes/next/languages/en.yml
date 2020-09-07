@@ -24,6 +24,7 @@ menu:
   surface-scanner: Surface Scanner
   app : App
   provider: Provider
+  install : Install wApp
 sidebar:
   overview: Overview
   toc: Table of Contents

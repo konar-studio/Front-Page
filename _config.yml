@@ -118,7 +118,7 @@ pwa:
     # See https://developer.mozilla.org/zh-CN/docs/Web/Manifest
     body:
       name: استودیو کنار
-      short_name: 'کارگاه نوآوری های روزمره'
+      short_name: 'konar.studio'
       lang: fa
       description: "An Opensource factory in all shapes."
       icons:
