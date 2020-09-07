@@ -2916,7 +2916,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bdff5b;
+  background: #df67e7;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3056,6 +3056,9 @@ blockquote {
 blockquote p {
   font-style: italic;
 }
+.menu-item-install {
+  display: none;
+}
 a.install-trigger {
   background: #34c3c3;
   color: #fff;
@@ -3161,7 +3164,7 @@ html[dir*="rtl"] .footer-inner {
     background: none;
   }
   div.install-trigger i {
-    color: #01b4b4;
+    color: #555;
   }
   .menu {
     text-align: left;

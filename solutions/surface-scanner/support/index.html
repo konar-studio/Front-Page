@@ -126,6 +126,11 @@
   </div>
 
   <div class="site-nav-right">
+    <div  class="toggle install-trigger">
+      <i class="fa fa-download fa-fw fa-lg"></i>
+    </div>
+  </div> 
+   <div class="site-nav-right">
     <div class="toggle popup-trigger">
         <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
@@ -162,26 +167,32 @@
       </li>
 
     
-  <div class="languages menu-item ">
-    <label class="lang-select-label">
-      <i class="fa fa-language"></i>
-      <span>فارسی</span>
-      <i class="fa fa-angle-down" aria-hidden="true"></i>
-    </label>
-    <select class="lang-select" data-canonical="">
-      
-        <option value="fa" data-href="/solutions/surface-scanner/support/" selected="">
-          فارسی
-        </option>
-      
-        <option value="en" data-href="/en/solutions/surface-scanner/support/" selected="">
-          English
-        </option>
-      
-    </select>
-  </div>
+  <li class="menu-item ">
+    <div class="languages">
+      <label class="lang-select-label">
+        <i class="fa fa-language"></i>
+        <span>فارسی</span>
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </label>
+      <select class="lang-select" data-canonical="">
+        
+          <option value="fa" data-href="/solutions/surface-scanner/support/" selected="">
+            فارسی
+          </option>
+        
+          <option value="en" data-href="/en/solutions/surface-scanner/support/" selected="">
+            English
+          </option>
+        
+      </select>
+    <div>
+  </li>
 
     
+    <li class="menu-item menu-item-install">
+      <a role="button" class="install-trigger"><i class="fa fa-download fa-fw"></i>نصب وب‌اَپ
+      </a>
+    </li>
   </ul>
 </nav>
 
@@ -477,6 +488,11 @@ if (document.querySelectorAll('.app-section').length) {
   });
 }
 </script>
+
+
+
+<script src="/js/wAppInstall.js"></script>
+
 
 
     <div class="pjax">
