@@ -1,16 +1,41 @@
+/* global importScripts, workbox */
 
-importScripts('https://g.alicdn.com/kg/workbox/3.3.0/workbox-sw.js');
+'use strict';
 
-if (workbox) {
-    workbox.setConfig({ modulePathPrefix: 'https://g.alicdn.com/kg/workbox/3.3.0/' });
+importScripts('/assets/workbox-v5.1.4/workbox-sw.js');
 
-    workbox.precaching.precache(['/', '/index.html']);
+workbox.setConfig({
+    modulePathPrefix: '/assets/workbox-v5.1.4/'
+});
 
-    workbox.routing.registerRoute(new RegExp('^https?://jsdelivr.net/?$'), workbox.strategies.networkFirst());
+const {
+    NetworkFirst,
+    StaleWhileRevalidate,
+    CacheFirst
+} = workbox.strategies;
+const {
+    registerRoute
+} = workbox.routing;
+const {
+    ExpirationPlugin
+} = workbox.expiration;
 
-    workbox.routing.registerRoute(new RegExp('.*.html'), workbox.strategies.networkFirst());
 
-    workbox.routing.registerRoute(new RegExp('.*.(?:js|css)'), workbox.strategies.staleWhileRevalidate());
 
-    workbox.routing.registerRoute(new RegExp('https://https://cdn.jsdelivr.net/'), workbox.strategies.cacheFirst());
-}
+registerRoute('/', new NetworkFirst({
+    "cacheName": "index",
+    "plugins": []
+}), 'GET');
+registerRoute(/\.(?:js|css)$/, new StaleWhileRevalidate({
+    "cacheName": "js-css",
+    "plugins": []
+}), 'GET');
+registerRoute(/\.(?:png|gif|jpg|jpeg|svg)$/, new CacheFirst({
+    "cacheName": "images",
+    "plugins": [new ExpirationPlugin({
+        "maxEntries": 60,
+        "maxAgeSeconds": 2592000
+    })]
+}), 'GET');
+
+workbox.googleAnalytics.initialize();

@@ -53,7 +53,7 @@ menu:
   blog: /blogs/ || fa fa-blog
   # categories: /categories/ || fa fa-th
   # tags: /tags/ || fa fa-tags
-  about: /about/ || fa fa-tree
+  about: /:language/about/ || fa fa-tree
   # install: /# || fa fa-mobile
 
 ####
