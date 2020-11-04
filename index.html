@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#01b4b4">
-<meta name="generator" content="Hexo 5.0.2">
+<meta name="generator" content="Hexo 5.1.1">
+<link rel="manifest" href="/manifest.json">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-icon-180x180.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
@@ -46,7 +47,7 @@
     lang   : 'fa'
   };
 </script>
-<link rel="manifest" href="/manifest.json" />
+
   <title>صفحه نخست | استودیو کنار
 </title>
   
@@ -100,6 +101,7 @@
   </style>
 </noscript>
 
+<link rel="alternate" href="/atom.xml" title="استودیو کنار" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -160,7 +162,7 @@
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="fa fa-tree fa-fw"></i>درباره‌ما</a>
+    <a href="/:language/about/" rel="section"><i class="fa fa-tree fa-fw"></i>درباره‌ما</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -539,6 +541,15 @@ if (document.querySelectorAll('.app-section').length) {
 
 
 
+  <script>
+// Check that service workers are supported
+if ('serviceWorker' in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}
+</script>
     <div class="pjax">
   
 
@@ -559,14 +570,6 @@ if (document.querySelectorAll('.app-section').length) {
   }
 </script>
 
-
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js');
-  });
-}
-</script>
 
     </div>
 </body>

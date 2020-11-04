@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://konar.studio/manifest.json</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/en/about/</loc>
+    
+    <lastmod>2020-09-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://konar.studio/about/</loc>
     
     <lastmod>2020-08-25</lastmod>
@@ -23,7 +37,21 @@
   </url>
   
   <url>
+    <loc>https://konar.studio/en/solutions/surface-scanner/diy/</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://konar.studio/solutions/</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/en/solutions/</loc>
     
     <lastmod>2020-08-25</lastmod>
     
@@ -37,7 +65,21 @@
   </url>
   
   <url>
+    <loc>https://konar.studio/en/solutions/surface-scanner/developer/</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://konar.studio/solutions/surface-scanner/support/</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/en/solutions/surface-scanner/support/</loc>
     
     <lastmod>2020-08-25</lastmod>
     
@@ -51,7 +93,21 @@
   </url>
   
   <url>
+    <loc>https://konar.studio/en/solutions/surface-scanner/providers/</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://konar.studio/solutions/surface-scanner/</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/en/solutions/surface-scanner/</loc>
     
     <lastmod>2020-08-25</lastmod>
     
@@ -72,7 +128,21 @@
   </url>
   
   <url>
+    <loc>https://konar.studio/en/solutions/surface-scanner/wapp/</loc>
+    
+    <lastmod>2020-08-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://konar.studio/contact/</loc>
+    
+    <lastmod>2020-07-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://konar.studio/en/contact/</loc>
     
     <lastmod>2020-07-24</lastmod>
     
@@ -109,7 +179,7 @@
 
   <url>
     <loc>https://konar.studio/</loc>
-    <lastmod>2020-09-07</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -117,21 +187,21 @@
   
   <url>
     <loc>https://konar.studio/tags/Injury/</loc>
-    <lastmod>2020-09-07</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://konar.studio/tags/Fight/</loc>
-    <lastmod>2020-09-07</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://konar.studio/tags/Shocking/</loc>
-    <lastmod>2020-09-07</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -140,14 +210,14 @@
   
   <url>
     <loc>https://konar.studio/categories/Sports/</loc>
-    <lastmod>2020-09-07</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://konar.studio/categories/Sports/Baseball/</loc>
-    <lastmod>2020-09-07</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
