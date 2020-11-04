@@ -111,36 +111,6 @@ search:
   content: true
   format: html
 
-pwa:
-  # Generate manifest.json
-  manifest:
-    path: /manifest.json
-    # See https://developer.mozilla.org/zh-CN/docs/Web/Manifest
-    body:
-      name: استودیو کنار
-      short_name: 'konar.studio'
-      lang: fa
-      description: "An Opensource factory in all shapes."
-      icons:
-        - src: /assets/images/android-chrome-192x192.png
-          sizes: 192x192
-          type: image/png 
-        - src: /assets/images/android-chrome-512x512.png
-          sizes: 512x512
-          type: image/png
-          purpose: "any maskable"
-      start_url: /
-      theme_color: '#01b4b4'
-      background_color: '#01b4b4'
-      display: standalone
-  # Generate sw.js
-  serviceWorker:
-    cdn: https://cdn.jsdelivr.net/npm/workbox-sw@5/build/workbox-sw.min.js
-    # See workbox-build's `generateSW()` API
-    # Here are some default configuration, see `./default.yaml`
-    options:
-      swDest: /sw.js
-
 ## compress website
 filter_optimize:
   enable: true
